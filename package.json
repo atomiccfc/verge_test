@@ -1,0 +1,16 @@
+{
+  "name": "verge3d",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "verge3d": "^4.7.1"
+  }
+ }
