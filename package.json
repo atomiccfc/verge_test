@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=8080"
+    "start": "live-server --port=8080 --entry-file=my-app.html"
   },
   "author": "",
   "license": "MIT",
@@ -11,6 +11,10 @@
   "dependencies": {
     "http-server": "^14.1.1",
     "live-server": "^1.2.2",
+    "v3d": "^1.0.0",
     "verge3d": "^4.7.1"
+  },
+  "devDependencies": {
+    "three": "^0.169.0"
   }
- }
+}
