@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=8080"
+    "start": "node start-npm.js"
   },
   "author": "",
   "license": "MIT",
@@ -11,6 +11,7 @@
   "dependencies": {
     "http-server": "^14.1.1",
     "live-server": "^1.2.2",
+    "node-cmd": "^5.0.0",
     "verge3d": "^4.7.1"
   }
- }
+}
